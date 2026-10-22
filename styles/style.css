@@ -1,16 +1,25 @@
 body
 {
+    background-color: black;
 @font-face 
 {
     font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap;
 }
-@font-face 
-{
+@font-face {
     font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap;
 }
 font-family: "Adwaita Mono", system-ui;
 }
 
+h1 {
+    color: slateblue;
+}
+h2 {
+    color: mediumslateblue;
+}
+h3 {
+    color: mediumpurple ;
+}
 p {
-  color: rgb(30, 30, 30);
+   color: mediumspringgreen;
 }
