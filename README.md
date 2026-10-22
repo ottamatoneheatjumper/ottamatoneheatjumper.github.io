@@ -1,1 +1,1 @@
-
+Sito realizzato per il corso di Computer Graphics.
