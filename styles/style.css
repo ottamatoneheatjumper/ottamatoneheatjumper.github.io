@@ -1,6 +1,6 @@
 body
 {
-    background-color: black;
+    background-color: rgb(46, 40, 61);
 @font-face 
 {
     font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap;
