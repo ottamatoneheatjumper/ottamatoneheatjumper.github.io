@@ -1,25 +1,41 @@
 body
+
 {
-    background-color: rgb(46, 40, 61);
-@font-face 
+    background-color: rgb(71, 63, 92);
+/* Font Setting*/
+    @font-face 
 {
     font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap;
 }
-@font-face {
+    @font-face {
     font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap;
 }
-font-family: "Adwaita Mono", system-ui;
+    font-family: "Adwaita Mono", system-ui;
 }
-
-h1 {
+/* Text Colorization*/
+    h1 {
     color: slateblue;
 }
-h2 {
+    h2 {
     color: mediumslateblue;
 }
-h3 {
+    h3 {
     color: mediumpurple ;
 }
-p {
+    p {
    color: mediumspringgreen;
+}
+    /* Link Clorization*/
+    a:link {
+    color: mediumspringgreen;
+}
+    a:visited {
+    color: mediumslateblue;
+}
+    a:hover {
+    color: mediumaquamarine;
+    text-decoration: underline;
+}
+    :active {
+    color: mediumaquamarine;
 }
