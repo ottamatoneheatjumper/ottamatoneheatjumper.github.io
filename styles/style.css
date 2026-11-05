@@ -6,31 +6,25 @@ div {
     border: 15px color rgb(71, 63, 92);
     padding: 50px;
     margin: 20px;
-}
 
-/* Font */
-    @font-face 
-{
-    font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap;
-}
-    @font-face {
-    font-family: "Adwaita Mono"; src: url("styles/fonts/adwaita-mono/adwaita-mono-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap;
-}
-
-/* Text Colorization*/
+/* Text Setting*/
     h1 {
     color: slateblue;
+    font-family: "Adwaita Mono";
 }
     h2 {
     color: mediumslateblue;
+    font-family: "Adwaita Mono";
 }
     h3 {
     color: mediumpurple ;
+    font-family: "Adwaita Mono";
 }
     p {
    color: mediumspringgreen;
+   font-family: "Adwaita Mono";
 }
-    /* Link Clorization*/
+    /* Link Color*/
     a:link {
     color: mediumspringgreen;
 }
@@ -43,4 +37,5 @@ div {
 }
     :active {
     color: mediumaquamarine;
+}
 }
